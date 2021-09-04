@@ -1,35 +1,4 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@secret120 
-secret120
-/
-web-application
-1
-0
-0
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-web-application/JenkinsfileJuly2021
-@devopstrainingblr
-devopstrainingblr Rename JenkinsfileJul to JenkinsfileJuly2021
-Latest commit dad0d2b 9 days ago
- History
- 1 contributor
-50 lines (37 sloc)  1.16 KB
-  
-node{
+ node{
 
  def mavenHome = tool name: "maven3.8.2"
  
@@ -79,16 +48,3 @@ node{
  
  
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete

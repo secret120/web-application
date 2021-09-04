@@ -1,5 +1,13 @@
 node{
 def mavenHome = tool name: "maven3.8.2"
+       echo "GitHub BranhName ${env.BRANCH_NAME}"
+       echo "Jenkins Job Number ${env.BUILD_NUMBER}"
+       echo "Jenkins Node Name ${env.NODE_NAME}"
+  
+       echo "Jenkins Home ${env.JENKINS_HOME}"
+       echo "Jenkins URL ${env.JENKINS_URL}"
+       echo "JOB Name ${env.JOB_NAME}"
+   
 stage('git clone'){
 git branch: 'development', credentialsId: '9aaf7227-6341-4a04-90f0-402b9f9cb51a', url: 'https://github.com/secret120/web-application.git'
 }
